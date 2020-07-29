@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
+  squared = []
+  array.length.times do |i|
+    sq = array[i] ** 2
+    squared.push(sq)
+  end
+  squared
 end
